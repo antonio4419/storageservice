@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class Status {
-    @GetMapping("/")
+   @GetMapping("/")
     String Saludo(){
-        return "running...";
+       return "running...";
     }
     
 }
